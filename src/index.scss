@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +11,44 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Courgette', cursive;
+}
+
+header {
+  padding: 7rem;
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/My_Little_Pony_G4_logo.svg/1200px-My_Little_Pony_G4_logo.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12rem;
+}
+
+button {
+  background-color: #ee43a9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  background-color: #24c1d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #812c97;
+  text-align: center;
+  padding: 1rem;
 }
