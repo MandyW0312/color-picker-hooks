@@ -30,7 +30,7 @@ function ColorPickerFunctionStyle() {
         </button>
         <section className="image">
           <img
-            src="https://wemakemoviesonweekendsdotcom.files.wordpress.com/2017/06/maxresdefault-1.jpg"
+            src="http://inside.akronchildrens.org/wp-content/uploads/2015/06/inside_out_-_emotion_poster.jpg"
             height="375"
             width="800"
           />
@@ -90,7 +90,7 @@ function ColorPickerFunctionStyle() {
         </section>
       </main>
       <footer>
-        This App to help you Pick a Color was created by Mandy Wade
+        This App to help you Pick a Color (Hooks) was created by Mandy Wade
       </footer>
     </div>
   )

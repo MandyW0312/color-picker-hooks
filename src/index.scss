@@ -16,19 +16,24 @@ body {
 
 header {
   padding: 7rem;
-  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/My_Little_Pony_G4_logo.svg/1200px-My_Little_Pony_G4_logo.svg.png');
+  background-image: url('https://i.pinimg.com/originals/8f/08/5f/8f085fcd7aaf9e2638f10a0beb28945f.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 12rem;
 }
 
 button {
-  background-color: #ee43a9;
+  background-color: #6ca435;
   font-family: 'Montserrat', sans-serif;
 }
 
 main {
-  background-color: #24c1d6;
+  background: rgb(113, 214, 238);
+  background: radial-gradient(
+    circle,
+    rgba(113, 214, 238, 1) 20%,
+    rgba(253, 239, 79, 1) 100%
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +53,7 @@ section {
 }
 
 footer {
-  background-color: #812c97;
+  background-color: #8048ab;
   text-align: center;
   padding: 1rem;
 }
