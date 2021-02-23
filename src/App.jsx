@@ -1,10 +1,16 @@
 import React, { useState } from 'react'
 
 function ColorPickerFunctionStyle() {
-  const [hue, setHue] = useState(0)
-  const [saturation, setSaturation] = useState(0)
-  const [lightness, setLightness] = useState(0)
-  const [alpha, setAlpha] = useState(0)
+  const [hue, setHue] = useState(Math.floor(Math.random() * (360 - 0)) + 0)
+  const [saturation, setSaturation] = useState(
+    Math.floor(Math.random() * (100 - 0)) + 0
+  )
+  const [lightness, setLightness] = useState(
+    Math.floor(Math.random() * (100 - 0)) + 0
+  )
+  const [alpha, setAlpha] = useState(
+    Math.round((Math.random() * (1 - 0) + 0) * 100) / 100
+  )
 
   return (
     <div>
